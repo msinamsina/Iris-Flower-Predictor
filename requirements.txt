@@ -1,0 +1,9 @@
+Flask==2.2.2
+Flask-SQLAlchemy==2.5.1
+Flask-Login==0.6.2
+scikit-learn==1.2.0
+joblib==1.2.0
+Werkzeug==2.2.2
+email_validator
+flask_wtf
+wtforms
