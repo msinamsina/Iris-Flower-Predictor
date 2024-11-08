@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-center">
+    <h2>Prediction Result</h2>
+    <p>The predicted species is: <strong>{{ prediction }}</strong></p>
+    <a href="{{ url_for('input_page') }}" class="btn btn-primary">Make Another Prediction</a>
+</div>
+{% endblock %}

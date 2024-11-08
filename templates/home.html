@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1>Welcome to the Iris Prediction App</h1>
+    <p>Use this app to predict the species of iris flowers based on flower measurements.</p>
+    <a href="{{ url_for('register') }}" class="btn btn-primary">Get Started</a>
+</div>
+{% endblock %}

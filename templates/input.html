@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2 class="text-center">Input Data for Prediction</h2>
+    <form method="POST" action="{{ url_for('input_page') }}">
+        <div class="form-group">
+            <label for="sepal_length">Sepal Length:</label>
+            <input type="number" class="form-control" id="sepal_length" name="sepal_length" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="sepal_width">Sepal Width:</label>
+            <input type="number" class="form-control" id="sepal_width" name="sepal_width" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="petal_length">Petal Length:</label>
+            <input type="number" class="form-control" id="petal_length" name="petal_length" step="0.1" required>
+        </div>
+        <div class="form-group">
+            <label for="petal_width">Petal Width:</label>
+            <input type="number" class="form-control" id="petal_width" name="petal_width" step="0.1" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Predict</button>
+    </form>
+</div>
+{% endblock %}
