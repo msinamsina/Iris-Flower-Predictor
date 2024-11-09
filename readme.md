@@ -1,4 +1,4 @@
-# [Welcome to the Iris Prediction App](https://iris.darkube.app/)
+# [Welcome to the Iris Prediction App](https://github.com/msinamsina/Iris-Flower-Predictor)
 
 Use this app to predict the species of iris flowers based on flower measurements.
 
@@ -20,7 +20,7 @@ You can use the app online by clicking [here](https://iris.darkube.app/).
 3. Run the app
 
 ```bash
-git clone
+git clone https://github.com/msinamsina/Iris-Flower-Predictor.git
 cd iris-prediction-app
 pip install -r requirements.txt
 python app.py
@@ -34,7 +34,7 @@ The app will be running on `http://0.0.0.0:5000/`.
 3. Run the docker container
 
 ```bash
-git clone
+git clone https://github.com/msinamsina/Iris-Flower-Predictor.git
 cd iris-prediction-app
 docker build -t iris-prediction-app:latest .
 docker run -p 80:5000 iris-prediction-app:latest
